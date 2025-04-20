@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Buku Tamu</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Oleo+Script&family=Poiret+One&display=swap');
+  </style>
+</head>
+
+<body>
+  <!-- NAVIGASI -->
+  <nav class="navbar">
+    <div class="wrapper">
+      <h1 class="logo">Pasar Ikan Hias Purwokerto</h1>
+
+      <menu class="nav_menu">
+        <a href="#bukutamu">Buku Tamu</a>
+      </menu>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero_container">
+      <h3>
+        <p style="color:#FF0000" ;>Selamat Datang</p>
+      </h3>
+      <h1>
+        <p style="color:#FF0000" ;>Pasar Ikan Hias Mina Restu, Purwanegara, Purwokerto</p>
+      </h1>
+      <h3>
+        <p style="color:#FF0000" ;>Pasar Rakyat Terpercaya menyediakan berbagai Keperluan Aquarium dan Accessories yang
+          ada di Kota Purwokerto</p>
+      </h3>
+      <button onclick="isiBukuTamu()">Isi Buku Tamu</button>
+    </div>
+  </section>
+
+  <!-- BUKU TAMU -->
+  <section id="bukutamu" class="buku_tamu">
+    <h1>Buku Tamu</h1>
+
+    <table>
+      <thead>
+        <tr>
+          <td>No</td>
+          <td>Nama</td>
+          <td>Alamat</td>
+          <td>Ucapan</td>
+        </tr>
+      </thead>
+      <tbody id="tbody">
+        <!-- RENDER FROM JS -->
+      </tbody>
+    </table>
+  </section>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
